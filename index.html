@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>Pasta Shape Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="project-title">
+      <h1>Pasta Shape Guide</h1>
+    </header>
+
+    <section class="intro">
+      <h2>Introduction</h2>
+      <p>Confused by the overwhelming amount of pasta shapes? My website allows you to browse different pasta shapes and save your favorites! After looking at three different websites' favoriting functions and performing a competitive analysis, I was able to make some decisions about my own design.</p>
+    </section>
+
+
+<section class="competitive-analysis">
+    <h2>Competitive Analysis</h2>
+    <p>Let's take a look at three popular websites' favoriting functionality: <a href="https://www.twitch.tv/">Twitch</a>, <a href="https://www.zillow.com/myzillow/favorites">Zillow</a>, and <a href="https://www.pinterest.com/">Pinterest</a>.</p>
+    <div class="table-wrapper">
+      <table>
+      </table>
+    </div>
+  
+    <div class="screenshots">
+
+  
+      <section class="screenshot">
+        <h3>Pinterest</h3>
+        <img src="./public/Pinterest.png" alt="Pinterest screenshot">
+        <p>The organization feature of Pinterest works really well for its purpose of corroborating artistic inspiration for specific projects and is consistent with the mental model of an art board. They even use the terminology and iconography of "pins" on a board.</p>
+      </section>
+
+      <section class="screenshot">
+        <h3>Twitch</h3>
+        <img src="./public/Twitch.png" alt="Twitch screenshot">
+        <p>While Twitch's favoriting function is very minimal and lacks many of the features shown on the other two websites, it still serves its purpose and maintains minimalism. Filter, sort, and compare are not needed here. The most important feature is that the aggregator is accessible and the user can navigate between favorited channels easily. Twitch did well on this aspect as they implemented their sticky sidebar on the left of the screen.</p>
+      </section>
+  
+      <section class="screenshot">
+        <h3>Zillow</h3>
+        <img src="./public/Zillow.png" alt="Zillow screenshot">
+        <p>For Zillow, the sort, filter, and compare features are really helpful and are essential for platforms used for big purchases like homes, in which the user will do a lot of browsing and deductive selection.</p>
+      </section>
+    </div>
+  
+    <section class="weaknesses">
+      <h3>Weaknesses</h3>
+      <p>Unfavoriting is a feature that has potential for improvement in all of these websites. For example, Twitch doesn't allow you to unfavorite directly from the aggregator; you need to click into each channel to unfollow. For the other two websites, a mass unfavorite feature might be helpful to improve efficiency. The necessity of this feature along with many of the others, of course, depends on how many items we anticipate the user to favorite.</p>
+    </section>
+  </section>
+  
+
+    <section class="implementation">
+      <h2>My Implementation</h2>
+      <p>For my implementation, I will likely adopt a similar filtering function as the Zillow website, in which filtering conditions are listed from a dropdown bar, minimizing clutter. My implementation will also allow the user to unfavorite/remove from list directly from the aggregator, to avoid the hassle of clicking back into individual items. Lastly, my aggregator will also be sticky on the page (like Twitch.tv), so that the user can keep track of favorited items while they continue browsing.</p>
+      <div class="img-container">
+        <img src="./public/pasta-wireframe.png" alt="Mockup screenshot">
+      </div>
+    </section>
+
+    <section class="website-theme">
+      <h2>Website Theme</h2>
+      <p>The theme of my website will be a pasta shape guide, that gives descriptions and pictures of the different pasta shapes. Users can filter to see different categories of pasta, such as long, short, and stuffed pasta. They will also be able to sort the catalog alphabetically (ascending and descending) which will be helpful if they are looking for a particular shape. Users will be able to favorite their favorite pasta shapes which will be displayed on a sticky aggregator on the right of the screen.</p>
+    </section>
+
+    <section class="takeaways">
+      <h2>Major Takeaways</h2>
+      <ul>
+        <li>Aggregator functions will vary depending on their use- certain features will be more useful in some applications than others.</li>
+        <li>Depending on how many items we expect the user to be looking through, filtering and sorting features are key to easy navigation.</li>
+        <li>Always check to ensure that filtering and sorting combinations don't break the website. Store the original list of items!</li>
+      </ul>
+    </section>
+
+    <section class="final-site">
+      <h2>Final Coded Site</h2>
+      <div class="img-container">
+        <a href="https://pastashapes.vercel.app">Link to the final coded site</a>
+        <img src="./public/final.png" alt="Final site screenshot">
+      </div>
+    </section>
+  </div>
+</body>
+</html>
